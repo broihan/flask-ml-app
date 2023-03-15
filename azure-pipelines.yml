@@ -19,6 +19,9 @@ variables:
   # Environment name
   environmentName: 'flask-ml-sbroihan'
 
+  # Resource-Group
+  resourceGroup: 'project-flask-ml-rg'
+
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
@@ -84,4 +87,6 @@ stages:
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
+              appType: webAppLinux
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              resourceGroupName: $(resourceGroup)
