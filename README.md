@@ -1,23 +1,37 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This is a python web based machine learning application using flask and sklearn. It's capability is to predict house prices in Bosten depending on provided input variables. 
+
 
 ## Project Plan
-<TODO: Project Plan
+The project plan gives you an overview of how the application has evolved and which parts are still open.
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+Trello board:
+* https://trello.com/b/TRtPQ0S3/flask-machine-learning-application
+
+Spreadsheet plan
+* [Spreadsheet](project-management.xlsx)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![Architecture diagram](architecture_diagram.drawio.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+Getting started:
+
+In order to checkout the  project into your azure cloud shell environment you need to generate an ssh key in the cloud shell and upload these keys into your GitHub account.
+
+Afterwards you can simply check out the code through ssh:
+
+```
+udacity@Azure:~$ git clone git@github.com:broihan/flask-ml-app.git
+```
+
+![screen_cloudshell_clone](screenshot_clone_git_repro_azure_shell.PNG)
+
 
 * Project running on Azure App Service
 
-* Project cloned into Azure Cloud Shell
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
