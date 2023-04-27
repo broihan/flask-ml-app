@@ -1,3 +1,5 @@
+![GitHub actions status](https://github.com/broihan/flask-ml-app/actions/workflows/python-app.yml/badge.svg)
+
 # Overview
 
 This is a python web based machine learning application using flask and sklearn. It's capability is to predict house prices in Bosten depending on provided input variables. 
